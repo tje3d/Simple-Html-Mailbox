@@ -22,3 +22,11 @@ Install Dependecies Using [Bower](https://bower.io):
 ```
 $ bower install bootstrap bootstrap-rtl fontawesome wysihtml
 ```
+
+## Make Theme RTL
+
+- Add following Style to your page:
+```
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
+```
+- Add dir="rtl" To ".mailbox" element ( See index-rtl.html )
