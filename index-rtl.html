@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
+	<link rel="stylesheet" type="text/css" href="mailbox.css">
+
+	<title>Mailbox - Moein Porkamel</title>
+
+	<link href='http://www.fontonline.ir/css/BYekan.css' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+			font-family: BYekan,'BYekan',tahoma;
+		}
+	</style>
+</head>
+<body dir="rtl">
+
+	<div class="container mailbox" dir="rtl">
+
+		<div class="col-md-3">
+			
+			<a href="compose-rtl.html" class="btn btn-primary btn-block">ایمیل جدید</a>
+
+			<br>
+
+			<div class="mailbox-box mailbox-box-solid">
+				
+				<div class="mailbox-box-header">
+					
+					<h3 class="mailbox-box-title">پوشه ها</h3>
+
+				</div>
+
+				<div class="mailbox-box-body">
+					
+					<ul class="vertical-list">
+						
+						<li class="active"><a href="index-rtl.html">
+							<i class="fa fa-inbox"></i>
+							صندوق
+							<span class="label label-primary pull-right flip">۱۲</span>
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-envelope-o"></i>
+							ارسال شده ها
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-file-text-o"></i>
+							پیش نویس ها
+							<span class="label label-warning pull-right flip">۴۵</span>
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-filter"></i>
+							اسپم
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-trash"></i>
+							حذف شده ها
+						</a></li>
+
+					</ul>
+
+				</div>
+
+			</div> <!-- End Box -->
+
+			<div class="mailbox-box mailbox-box-solid">
+				
+				<div class="mailbox-box-header">
+					
+					<h3 class="mailbox-box-title">برچسب ها</h3>
+
+				</div>
+
+				<div class="mailbox-box-body">
+					
+					<ul class="vertical-list">
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							مهم
+						</a></li>
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							پیشنهادات
+						</a></li>
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							اجتماعی
+						</a></li>
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							مطلاعه
+						</a></li>
+
+					</ul>
+
+				</div>
+
+			</div> <!-- End Box -->
+
+		</div>
+		<!-- Sidebar -->
+
+		<div class="col-md-9">
+			
+			<div class="mailbox-box mailbox-box-primary">
+				
+				<div class="mailbox-box-header">
+					
+					<h3 class="mailbox-box-title">صندوق</h3>
+
+					<div class="mailbox-box-tools pull-right flip">
+						
+						<form class="form form-horizontal search-form">
+							<input type="text" class="form-control" placeholder="جستجو...">
+							<i class="fa fa-search fa-btn"></i>
+						</form>
+
+					</div>
+
+				</div>
+
+				<div class="mailbox-box-body">
+
+					<div class="mailbox-controls">
+					    <button class="btn btn-default btn-sm" type="button">
+					        <i class="fa fa-square-o">
+					        </i>
+					    </button>
+					    <div class="btn-group">
+					        <button class="btn btn-default btn-sm" type="button">
+					            <i class="fa fa-trash-o">
+					            </i>
+					        </button>
+					        <button class="btn btn-default btn-sm" type="button">
+					            <i class="fa fa-reply">
+					            </i>
+					        </button>
+					        <button class="btn btn-default btn-sm" type="button">
+					            <i class="fa fa-share">
+					            </i>
+					        </button>
+					    </div>
+					    <button class="btn btn-default btn-sm" type="button">
+					        <i class="fa fa-refresh">
+					        </i>
+					    </button>
+					    <div class="pull-right flip">
+					        ۱-۹/۲۰۰
+					        <div class="btn-group">
+					            <button class="btn btn-default btn-sm" type="button">
+					                <i class="fa fa-chevron-right">
+					                </i>
+					            </button>
+					            <button class="btn btn-default btn-sm" type="button">
+					                <i class="fa fa-chevron-left">
+					                </i>
+					            </button>
+					        </div>
+					    </div>
+					</div>
+					<!-- Controls -->
+					
+					<div class="table-responsive mailbox-messages">
+					    <table class="table table-hover table-striped">
+					        <tbody>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                </td>
+					                <td class="mailbox-date">
+					                    ۵ دقیقه پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star-o text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                    <i class="fa fa-paperclip">
+					                    </i>
+					                </td>
+					                <td class="mailbox-date">
+					                    ۲۸ دقیقه پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star-o text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                    <i class="fa fa-paperclip">
+					                    </i>
+					                </td>
+					                <td class="mailbox-date">
+					                    ۱۱ ساعت پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                </td>
+					                <td class="mailbox-date">
+					                    ۲ روز پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star-o text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                    <i class="fa fa-paperclip">
+					                    </i>
+					                </td>
+					                <td class="mailbox-date">
+					                    ۲ روز پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star-o text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                    <i class="fa fa-paperclip">
+					                    </i>
+					                </td>
+					                <td class="mailbox-date">
+					                    ۲ روز پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                </td>
+					                <td class="mailbox-date">
+					                    ۱ هفته پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star-o text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                    <i class="fa fa-paperclip">
+					                    </i>
+					                </td>
+					                <td class="mailbox-date">
+					                    ۱ ماه پیش
+					                </td>
+					            </tr>
+					            <tr>
+					                <td><input type="checkbox" /></td>
+					                <td class="mailbox-star">
+					                    <a href="#">
+					                        <i class="fa fa-star-o text-yellow">
+					                        </i>
+					                    </a>
+					                </td>
+					                <td class="mailbox-name">
+					                    <a href="read-rtl.html">
+					                        معین پرکامل
+					                    </a>
+					                </td>
+					                <td class="mailbox-subject">
+					                    <b>
+					                        کتابهای زیادی در شصت و سه
+					                    </b>
+					                    - لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم...
+					                </td>
+					                <td class="mailbox-attachment">
+					                    <i class="fa fa-paperclip">
+					                    </i>
+					                </td>
+					                <td class="mailbox-date">
+					                    ۱ ماه پیش
+					                </td>
+					            </tr>
+					        </tbody>
+					    </table>
+					</div> <!-- Messages -->
+
+					<div class="mailbox-controls">
+					    <button class="btn btn-default btn-sm" type="button">
+					        <i class="fa fa-square-o">
+					        </i>
+					    </button>
+					    <div class="btn-group">
+					        <button class="btn btn-default btn-sm" type="button">
+					            <i class="fa fa-trash-o">
+					            </i>
+					        </button>
+					        <button class="btn btn-default btn-sm" type="button">
+					            <i class="fa fa-reply">
+					            </i>
+					        </button>
+					        <button class="btn btn-default btn-sm" type="button">
+					            <i class="fa fa-share">
+					            </i>
+					        </button>
+					    </div>
+					    <button class="btn btn-default btn-sm" type="button">
+					        <i class="fa fa-refresh">
+					        </i>
+					    </button>
+					    <div class="pull-right flip">
+					        ۱-۹/۲۰۰
+					        <div class="btn-group">
+					            <button class="btn btn-default btn-sm" type="button">
+					                <i class="fa fa-chevron-right">
+					                </i>
+					            </button>
+					            <button class="btn btn-default btn-sm" type="button">
+					                <i class="fa fa-chevron-left">
+					                </i>
+					            </button>
+					        </div>
+					    </div>
+					</div>
+					<!-- Controls -->
+
+				</div>
+
+			</div> <!-- End Box -->
+
+		</div>
+		<!-- Content -->
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap-rtl/dist/css/bootstrap-rtl.min.css">
+
+	<script src="bower_components/wysihtml/dist/wysihtml-toolbar.min.js"></script>
+	<script src="bower_components/wysihtml/parser_rules/advanced_and_extended.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="mailbox.css">
+
+	<title>Mailbox - Compose - Moein Porkamel</title>
+
+	<link href='http://www.fontonline.ir/css/BYekan.css' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+			font-family: BYekan,'BYekan',tahoma;
+		}
+	</style>
+</head>
+<body dir="rtl">
+
+	<div class="container mailbox" dir="rtl">
+		
+		<div class="col-md-3">
+			
+			<a href="#" class="btn btn-primary btn-block">ایمیل جدید</a>
+
+			<br>
+
+			<div class="mailbox-box mailbox-box-solid">
+				
+				<div class="mailbox-box-header">
+					
+					<h3 class="mailbox-box-title">پوشه ها</h3>
+
+				</div>
+
+				<div class="mailbox-box-body">
+					
+					<ul class="vertical-list">
+						
+						<li class="active"><a href="index-rtl.html">
+							<i class="fa fa-inbox"></i>
+							صندوق
+							<span class="label label-primary pull-right flip">۱۲</span>
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-envelope-o"></i>
+							ارسال شده ها
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-file-text-o"></i>
+							پیش نویس ها
+							<span class="label label-warning pull-right flip">۴۵</span>
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-filter"></i>
+							اسپم
+						</a></li>
+						
+						<li><a href="index-rtl.html">
+							<i class="fa fa-trash"></i>
+							حذف شده ها
+						</a></li>
+
+					</ul>
+
+				</div>
+
+			</div> <!-- End Box -->
+
+			<div class="mailbox-box mailbox-box-solid">
+				
+				<div class="mailbox-box-header">
+					
+					<h3 class="mailbox-box-title">برچسب ها</h3>
+
+				</div>
+
+				<div class="mailbox-box-body">
+					
+					<ul class="vertical-list">
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							مهم
+						</a></li>
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							پیشنهادات
+						</a></li>
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							اجتماعی
+						</a></li>
+						
+						<li><a href="#">
+							<i class="fa fa-circle-o"></i>
+							مطلاعه
+						</a></li>
+
+					</ul>
+
+				</div>
+
+			</div> <!-- End Box -->
+
+		</div>
+		<!-- Sidebar -->
+
+		<div class="col-md-9">
+			
+			<div class="mailbox-box mailbox-box-primary">
+				
+				<div class="mailbox-box-header">
+					
+					<h3 class="mailbox-box-title">پیام جدید</h3>
+
+				</div>
+
+				<form class="mailbox-compose">
+
+					<div class="mailbox-box-body">
+						
+							<div class="form-group">
+							    <input class="form-control" type="text" placeholder="به:" />
+							</div>
+							
+							<div class="form-group">
+							    <input class="form-control" type="text" placeholder="عنوان:" />
+							</div>
+							
+							<div class="form-group">
+
+								<div id="toolbar">
+								    <ul class="wysihtml5-toolbar">
+									    <li>
+									        <div class="btn-group">
+									            <a class="btn btn-default" data-wysihtml5-command="bold" href="javascript:;" tabindex="-1" title="CTRL+B" unselectable="on">
+									                Bold
+									            </a>
+									            <a class="btn btn-default" data-wysihtml5-command="italic" href="javascript:;" tabindex="-1" title="CTRL+I" unselectable="on">
+									                Italic
+									            </a>
+									            <a class="btn btn-default wysihtml5-command-active" data-wysihtml5-command="underline" href="javascript:;" tabindex="-1" title="CTRL+U" unselectable="on">
+									                Underline
+									            </a>
+									            <a class="btn btn-default" data-wysihtml5-command="small" href="javascript:;" tabindex="-1" title="CTRL+S" unselectable="on">
+									                Small
+									            </a>
+									        </div>
+									    </li>
+									    <li>
+									        <a class="btn btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="blockquote" data-wysihtml5-display-format-name="false" href="javascript:;" tabindex="-1" unselectable="on">
+									            <span class="fa fa-quote-left">
+									            </span>
+									        </a>
+									    </li>
+									    <li>
+									        <div class="btn-group">
+									            <a class="btn btn-default" data-wysihtml5-command="insertUnorderedList" href="javascript:;" tabindex="-1" title="Unordered list" unselectable="on">
+									                <span class="glyphicon glyphicon-list">
+									                </span>
+									            </a>
+									            <a class="btn btn-default" data-wysihtml5-command="insertOrderedList" href="javascript:;" tabindex="-1" title="Ordered list" unselectable="on">
+									                <span class="glyphicon glyphicon-th-list">
+									                </span>
+									            </a>
+									            <a class="btn btn-default" data-wysihtml5-command="Outdent" href="javascript:;" tabindex="-1" title="Outdent" unselectable="on">
+									                <span class="glyphicon glyphicon-indent-right">
+									                </span>
+									            </a>
+									            <a class="btn btn-default" data-wysihtml5-command="Indent" href="javascript:;" tabindex="-1" title="Indent" unselectable="on">
+									                <span class="glyphicon glyphicon-indent-left">
+									                </span>
+									            </a>
+									        </div>
+									    </li>
+									</ul>
+								</div>
+
+							    <div class="same-form-control" style="min-height: 200px;" data-placeholder="پیام..." id="editor"></div>
+							</div>
+
+							<div class="form-group">
+							    <label class="btn btn-default btn-file">
+							        <i class="fa fa-paperclip">
+							        </i>
+							        ضمیمه ها
+							        <input name="attachment" type="file" class="hidden" />
+							    </label>
+							    <p class="help-block">
+							        حداکثر ۳۲مگابایت
+							    </p>
+							</div>
+
+					</div> <!-- Body -->
+
+					<div class="mailbox-box-footer">
+					    <div class="pull-right flip">
+					        <button class="btn btn-default" type="button">
+					            <i class="fa fa-pencil">
+					            </i>
+	پیش نویس
+					        </button>
+					        <button class="btn btn-primary" type="submit">
+					            <i class="fa fa-envelope-o">
+					            </i>
+					            ارسال
+					        </button>
+					    </div>
+					    <button class="btn btn-default" type="reset">
+					        <i class="fa fa-times">
+					        </i>
+					        پاک کردن
+					    </button>
+					</div> <!-- Footer -->
+
+				</form>
+
+			</div> <!-- End Box -->
+
+		</div>
+		<!-- Content -->
+
+	</div>
+
+	<script>
+		var editor = new wysihtml5.Editor('editor', {
+			toolbar: 'toolbar',
+			parserRules:  wysihtml5ParserRules
+		});
+	</script>
+
+</body>
+</html>
